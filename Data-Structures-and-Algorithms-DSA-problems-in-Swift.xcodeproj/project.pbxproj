@@ -18,6 +18,10 @@
 		BD77228C2D7BE1AC00FE575B /* Graphs Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77228B2D7BE1AC00FE575B /* Graphs Problem1.swift */; };
 		BD77228E2D7BE1D300FE575B /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77228D2D7BE1D300FE575B /* QuickSort.swift */; };
 		BD7722902D7BE1E600FE575B /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77228F2D7BE1E600FE575B /* MergeSort.swift */; };
+		BD7722932D7BFC1900FE575B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722922D7BFC1900FE575B /* CustomButton.swift */; };
+		BD7722952D7C84CC00FE575B /* Arrays Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722942D7C84CC00FE575B /* Arrays Problem3.swift */; };
+		BD7722972D7C919200FE575B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722962D7C919200FE575B /* CustomTextField.swift */; };
+		BD7C6E0A2D7CA074005D6A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7C6E092D7CA074005D6A09 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		BD77228B2D7BE1AC00FE575B /* Graphs Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graphs Problem1.swift"; sourceTree = "<group>"; };
 		BD77228D2D7BE1D300FE575B /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		BD77228F2D7BE1E600FE575B /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		BD7722922D7BFC1900FE575B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		BD7722942D7C84CC00FE575B /* Arrays Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arrays Problem3.swift"; sourceTree = "<group>"; };
+		BD7722962D7C919200FE575B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		BD7C6E092D7CA074005D6A09 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,7 @@
 			children = (
 				BD7722832D7BE13C00FE575B /* Arrays Problem1.swift */,
 				BD7722852D7BE15100FE575B /* Arrays Problem2.swift */,
+				BD7722942D7C84CC00FE575B /* Arrays Problem3.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -132,10 +141,21 @@
 				BD7722762D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements */,
 				BD7722772D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift */,
 				BD7722752D7BDF5A00FE575B /* ContentView.swift */,
+				BD7C6E092D7CA074005D6A09 /* LaunchScreen.storyboard */,
 				BD7722742D7BDF5A00FE575B /* Assets.xcassets */,
+				BD7722912D7BFBFF00FE575B /* Components */,
 				BD7722732D7BDF5A00FE575B /* Preview Content */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		BD7722912D7BFBFF00FE575B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722922D7BFC1900FE575B /* CustomButton.swift */,
+				BD7722962D7C919200FE575B /* CustomTextField.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7C6E0A2D7CA074005D6A09 /* LaunchScreen.storyboard in Resources */,
 				BD77227B2D7BDF5A00FE575B /* Preview Assets.xcassets in Resources */,
 				BD77227C2D7BDF5A00FE575B /* Assets.xcassets in Resources */,
 			);
@@ -215,8 +236,11 @@
 				BD7722862D7BE15100FE575B /* Arrays Problem2.swift in Sources */,
 				BD77227A2D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift in Sources */,
 				BD7722842D7BE13C00FE575B /* Arrays Problem1.swift in Sources */,
+				BD7722932D7BFC1900FE575B /* CustomButton.swift in Sources */,
+				BD7722952D7C84CC00FE575B /* Arrays Problem3.swift in Sources */,
 				BD77228A2D7BE19600FE575B /* Trees Problem1.swift in Sources */,
 				BD77228C2D7BE1AC00FE575B /* Graphs Problem1.swift in Sources */,
+				BD7722972D7C919200FE575B /* CustomTextField.swift in Sources */,
 				BD7722902D7BE1E600FE575B /* MergeSort.swift in Sources */,
 				BD7722882D7BE17300FE575B /* LinkedLists Problem1.swift in Sources */,
 				BD77228E2D7BE1D300FE575B /* QuickSort.swift in Sources */,
@@ -345,6 +369,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Data-Structures-and-Algorithms-DSA-problems-in-Swift/App/Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -360,6 +385,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -385,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Data-Structures-and-Algorithms-DSA-problems-in-Swift/App/Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -400,6 +427,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

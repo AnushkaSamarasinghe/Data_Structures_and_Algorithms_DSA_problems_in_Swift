@@ -18,6 +18,9 @@ struct ContentView: View {
                     NavigationLink("Arrays Problem2") {
                         Arrays_Problem2()
                     }
+                    NavigationLink("Arrays Problem3") {
+                        Arrays_Problem3()
+                    }
                 }//: Section
                 
                 Section(header: Text("LinkedLists")) {
