@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD7722792D7BDF5A00FE575B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722752D7BDF5A00FE575B /* ContentView.swift */; };
+		BD77227A2D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722772D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift */; };
+		BD77227B2D7BDF5A00FE575B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7722722D7BDF5A00FE575B /* Preview Assets.xcassets */; };
+		BD77227C2D7BDF5A00FE575B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD7722742D7BDF5A00FE575B /* Assets.xcassets */; };
+		BD7722842D7BE13C00FE575B /* Arrays Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722832D7BE13C00FE575B /* Arrays Problem1.swift */; };
+		BD7722862D7BE15100FE575B /* Arrays Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722852D7BE15100FE575B /* Arrays Problem2.swift */; };
+		BD7722882D7BE17300FE575B /* LinkedLists Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722872D7BE17300FE575B /* LinkedLists Problem1.swift */; };
+		BD77228A2D7BE19600FE575B /* Trees Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7722892D7BE19600FE575B /* Trees Problem1.swift */; };
+		BD77228C2D7BE1AC00FE575B /* Graphs Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77228B2D7BE1AC00FE575B /* Graphs Problem1.swift */; };
+		BD77228E2D7BE1D300FE575B /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77228D2D7BE1D300FE575B /* QuickSort.swift */; };
+		BD7722902D7BE1E600FE575B /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD77228F2D7BE1E600FE575B /* MergeSort.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD7722562D7BDEA700FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Data-Structures-and-Algorithms-DSA-problems-in-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7722722D7BDF5A00FE575B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD7722742D7BDF5A00FE575B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD7722752D7BDF5A00FE575B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD7722762D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements; sourceTree = "<group>"; };
+		BD7722772D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift; sourceTree = "<group>"; };
+		BD7722832D7BE13C00FE575B /* Arrays Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arrays Problem1.swift"; sourceTree = "<group>"; };
+		BD7722852D7BE15100FE575B /* Arrays Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arrays Problem2.swift"; sourceTree = "<group>"; };
+		BD7722872D7BE17300FE575B /* LinkedLists Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinkedLists Problem1.swift"; sourceTree = "<group>"; };
+		BD7722892D7BE19600FE575B /* Trees Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Trees Problem1.swift"; sourceTree = "<group>"; };
+		BD77228B2D7BE1AC00FE575B /* Graphs Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Graphs Problem1.swift"; sourceTree = "<group>"; };
+		BD77228D2D7BE1D300FE575B /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
+		BD77228F2D7BE1E600FE575B /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD7722532D7BDEA700FE575B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD77224D2D7BDEA700FE575B = {
+			isa = PBXGroup;
+			children = (
+				BD7722782D7BDF5A00FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift */,
+				BD7722572D7BDEA700FE575B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD7722572D7BDEA700FE575B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722562D7BDEA700FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD7722732D7BDF5A00FE575B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722722D7BDF5A00FE575B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD7722782D7BDF5A00FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722822D7BE02800FE575B /* App */,
+				BD77227D2D7BDF7800FE575B /* Arrays */,
+				BD77227E2D7BDFCC00FE575B /* LinkedLists */,
+				BD77227F2D7BDFD900FE575B /* Trees */,
+				BD7722802D7BDFEA00FE575B /* Graphs */,
+				BD7722812D7BDFF900FE575B /* Sorting */,
+			);
+			path = "Data-Structures-and-Algorithms-DSA-problems-in-Swift";
+			sourceTree = "<group>";
+		};
+		BD77227D2D7BDF7800FE575B /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722832D7BE13C00FE575B /* Arrays Problem1.swift */,
+				BD7722852D7BE15100FE575B /* Arrays Problem2.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
+		BD77227E2D7BDFCC00FE575B /* LinkedLists */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722872D7BE17300FE575B /* LinkedLists Problem1.swift */,
+			);
+			path = LinkedLists;
+			sourceTree = "<group>";
+		};
+		BD77227F2D7BDFD900FE575B /* Trees */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722892D7BE19600FE575B /* Trees Problem1.swift */,
+			);
+			path = Trees;
+			sourceTree = "<group>";
+		};
+		BD7722802D7BDFEA00FE575B /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				BD77228B2D7BE1AC00FE575B /* Graphs Problem1.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
+		BD7722812D7BDFF900FE575B /* Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				BD77228D2D7BE1D300FE575B /* QuickSort.swift */,
+				BD77228F2D7BE1E600FE575B /* MergeSort.swift */,
+			);
+			path = Sorting;
+			sourceTree = "<group>";
+		};
+		BD7722822D7BE02800FE575B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BD7722762D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements */,
+				BD7722772D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift */,
+				BD7722752D7BDF5A00FE575B /* ContentView.swift */,
+				BD7722742D7BDF5A00FE575B /* Assets.xcassets */,
+				BD7722732D7BDF5A00FE575B /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD7722552D7BDEA700FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD7722652D7BDEA900FE575B /* Build configuration list for PBXNativeTarget "Data-Structures-and-Algorithms-DSA-problems-in-Swift" */;
+			buildPhases = (
+				BD7722522D7BDEA700FE575B /* Sources */,
+				BD7722532D7BDEA700FE575B /* Frameworks */,
+				BD7722542D7BDEA700FE575B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Data-Structures-and-Algorithms-DSA-problems-in-Swift";
+			packageProductDependencies = (
+			);
+			productName = "Data-Structures-and-Algorithms-DSA-problems-in-Swift";
+			productReference = BD7722562D7BDEA700FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD77224E2D7BDEA700FE575B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BD7722552D7BDEA700FE575B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = BD7722512D7BDEA700FE575B /* Build configuration list for PBXProject "Data-Structures-and-Algorithms-DSA-problems-in-Swift" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD77224D2D7BDEA700FE575B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BD7722572D7BDEA700FE575B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD7722552D7BDEA700FE575B /* Data-Structures-and-Algorithms-DSA-problems-in-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD7722542D7BDEA700FE575B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD77227B2D7BDF5A00FE575B /* Preview Assets.xcassets in Resources */,
+				BD77227C2D7BDF5A00FE575B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD7722522D7BDEA700FE575B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7722792D7BDF5A00FE575B /* ContentView.swift in Sources */,
+				BD7722862D7BE15100FE575B /* Arrays Problem2.swift in Sources */,
+				BD77227A2D7BDF5A00FE575B /* Data_Structures_and_Algorithms_DSA_problems_in_SwiftApp.swift in Sources */,
+				BD7722842D7BE13C00FE575B /* Arrays Problem1.swift in Sources */,
+				BD77228A2D7BE19600FE575B /* Trees Problem1.swift in Sources */,
+				BD77228C2D7BE1AC00FE575B /* Graphs Problem1.swift in Sources */,
+				BD7722902D7BE1E600FE575B /* MergeSort.swift in Sources */,
+				BD7722882D7BE17300FE575B /* LinkedLists Problem1.swift in Sources */,
+				BD77228E2D7BE1D300FE575B /* QuickSort.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD7722632D7BDEA900FE575B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD7722642D7BDEA900FE575B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BD7722662D7BDEA900FE575B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Data-Structures-and-Algorithms-DSA-problems-in-Swift/App/Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Data-Structures-and-Algorithms-DSA-problems-in-Swift/App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S2USGV52L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iOS DSA Problems";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anushka.Data-Structures-and-Algorithms-DSA-problems-in-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		BD7722672D7BDEA900FE575B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Data-Structures-and-Algorithms-DSA-problems-in-Swift/App/Data_Structures_and_Algorithms_DSA_problems_in_Swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Data-Structures-and-Algorithms-DSA-problems-in-Swift/App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5S2USGV52L;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "iOS DSA Problems";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anushka.Data-Structures-and-Algorithms-DSA-problems-in-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD7722512D7BDEA700FE575B /* Build configuration list for PBXProject "Data-Structures-and-Algorithms-DSA-problems-in-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7722632D7BDEA900FE575B /* Debug */,
+				BD7722642D7BDEA900FE575B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD7722652D7BDEA900FE575B /* Build configuration list for PBXNativeTarget "Data-Structures-and-Algorithms-DSA-problems-in-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7722662D7BDEA900FE575B /* Debug */,
+				BD7722672D7BDEA900FE575B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD77224E2D7BDEA700FE575B /* Project object */;
+}
