@@ -19,6 +19,7 @@ This repository is structured to keep problems **organized and accessible**.
 │-- 📂 Arrays
 │   │-- Problem1.swift
 │   │-- Problem2.swift
+│   │-- Problem3.swift
 │-- 📂 LinkedLists
 │   │-- Problem1.swift
 │-- 📂 Trees
